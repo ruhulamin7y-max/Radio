@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Online Mock Test</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="box">
+
+<h1>Radiographer Mock Test</h1>
+
+<input id="name" placeholder="Enter your name">
+
+<button onclick="start()">Start Test</button>
+
+</div>
+
+<script>
+
+function start(){
+
+let name=document.getElementById("name").value
+
+localStorage.setItem("username",name)
+
+window.location="quiz.html"
+
+}
+
+</script>
+
+</body>
+</html>
