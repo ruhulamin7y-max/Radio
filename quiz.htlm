@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Quiz</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="config.js"></script>
+
+</head>
+
+<body>
+
+<h2 id="timer">Time: 60</h2>
+
+<div id="quiz"></div>
+
+<button onclick="next()">Next</button>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
